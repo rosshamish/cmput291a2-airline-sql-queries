@@ -4,15 +4,7 @@ Assignment 2
 Name: Ross Anderson
 Unix Id: rhanders
 Lab Section: ED02
-Collaboration: None
 
-Query 1: [x] written [ ] tested
-Query 2: [x] written [ ] tested
-Query 3: [x] written [ ] tested
-Query 4: [x] written [ ] tested
-Query 5: [x] written [ ] tested
-Query 6: [x] written [ ] tested
-Query 7: [x] written [ ] tested
-Query 8: [x] written [ ] tested
-Query 9: [ ] written [ ] tested
-Query 10: [x] written [ ] tested
+Collaboration:
+- Daniel Shin (dshin@ualberta.ca): advice to use count(1) in a nested select to count bookings in query 7
+- Bradley Lockhart (blockhar@ualberta.ca): test data from eClass forum, a2-data.sql

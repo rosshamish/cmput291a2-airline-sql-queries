@@ -7,6 +7,9 @@ FILES="$FILES a2-schema.sql"
 # test data
 FILES="$FILES a2-data.sql"
 
+# scratch query
+FILES="$FILES scratch.sql"
+
 # queries
 for i in {1..10}
 do

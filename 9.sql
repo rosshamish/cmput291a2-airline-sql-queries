@@ -1,6 +1,6 @@
 prompt Question 9 - rhanders
 
-drop view good_conections;
+drop view good_connections;
 
 create view good_connections as
 select * from

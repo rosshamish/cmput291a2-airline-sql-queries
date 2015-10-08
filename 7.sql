@@ -7,12 +7,10 @@ select * from
 (
   select  f.flightno, sf.dep_date,
           f.src, f.dst,
-          to_char(f.dep_time, 'HH24:MI:SS') as dep_time,
-          to_char(
-            f.dep_time
+          f.dep_time,
+          f.dep_time
             +f.est_dur/(24*60)
-            +(b.tzone-a.tzone)/24,
-          'HH24:MI:SS') as arr_time,
+            +(b.tzone-a.tzone)/24 as arr_time,
           fr.fare,
           fr.limit-(select count(1) from bookings where
                     bookings.flightno = f.flightno and

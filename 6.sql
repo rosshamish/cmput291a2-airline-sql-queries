@@ -3,7 +3,7 @@ prompt Question 6 - rhanders
 SELECT *
 FROM
 (
-  SELECT f.flightno, to_char(f.dep_time, 'HH:mm:ss') as dep_time, fr.fare as ft, fr.price
+  SELECT f.flightno, to_char(f.dep_time, 'HH24:MI:SS') as dep_time, fr.fare as ft, fr.price
   FROM flights f, sch_flights sf, flight_fares fr
   WHERE f.flightno = sf.flightno AND
         sf.flightno = fr.flightno AND

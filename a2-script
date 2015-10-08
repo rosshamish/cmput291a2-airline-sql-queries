@@ -1,0 +1,933 @@
+Script started on Thu 08 Oct 2015 11:43:41 AM MDT
+rhanders@ohaton:~/Documents/cmput291/a2>sqlplus rhanders
+
+SQL*Plus: Release 12.1.0.2.0 Production on Thu Oct 8 11:43:44 2015
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+Enter password: 
+Last Successful login time: Thu Oct 08 2015 11:37:52 -06:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+
+SQL> @1
+Question 1 - rhanders
+
+EMAIL
+--------------------
+LahomaBroaddus@e.ca
+RomonaPiland@e.ca
+OliveClendenin@e.ca
+Glennis@e.ca
+LatashaMayso@e.ca
+AletaVanmeter@e.ca
+AlmedaCoto@e.ca
+LavonHilyard@e.ca
+AdriaYale@e.ca
+GraigRidgeway@e.ca
+HildegardBeil@e.ca
+
+EMAIL
+--------------------
+JohnnaChoud@e.ca
+AnnisTalton@e.ca
+LorePereira@e.ca
+BilliBradt@e.ca
+ElyseOaks@e.ca
+NathanPrum@e.ca
+BeulaMcmichael@e.ca
+OnieKenton@e.ca
+NoellaStras@e.ca
+ShantaePoppe@e.ca
+ElbaCamire@e.ca
+
+EMAIL
+--------------------
+RodgerManue@e.ca
+AracelyBeaupre@e.ca
+FernandaSchne@e.ca
+SelmaCaddy@e.ca
+RenaeEscamilla@e.ca
+JerleneBeam@e.ca
+SuzieSerrata@e.ca
+AngieDussault@e.ca
+RoxanePankratz@e.ca
+MerrillMckech@e.ca
+UlaStyers@e.ca
+
+EMAIL
+--------------------
+ExieNeidert@e.ca
+CharmainKeen@e.ca
+DelilaBruegge@e.ca
+DaveGendreau@e.ca
+ClydeTripp@e.ca
+SamaraFriesen@e.ca
+Evelin@e.ca
+ReaganSouth@e.ca
+TariLefort@e.ca
+KenaRuhland@e.ca
+DottyBarsh@e.ca
+
+EMAIL
+--------------------
+TyronBushell@e.ca
+IdellaKai@e.ca
+CharisSpeaker@e.ca
+HarlanSauer@e.ca
+ChristoperBatt@e.ca
+EssieMusser@e.ca
+
+50 rows selected.
+
+SQL> @3 2
+Question 2 - rhanders
+
+NAME		     EMAIL
+-------------------- --------------------
+Ula Styers	     UlaStyers@e.ca
+Margarete Ludlum     MargareteLudl@e.ca
+Danica Dudgeon	     DanicaDudgeon@e.ca
+Rosalina Fermin      RosalinaFermin@e.ca
+Chanell Borth	     ChanellBorth@e.ca
+Roslyn Plamondon     RoslynPlamon@e.ca
+Avril Scannell	     AvrilScannell@e.ca
+Daniell Rosendahl    DaniellRosend@e.ca
+Nicolas Hanway	     NicolasHanway@e.ca
+Ermelinda Dalby      ErmelindaDalby@e.ca
+Latasha Maysonet     LatashaMayso@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Annis Talton	     AnnisTalton@e.ca
+Alexandria Docherty  AlexandriaDoch@e.ca
+Janella Weiskopf     JanellaWeis@e.ca
+Luba Fails	     LubaFails@e.ca
+Evelin Hillhouse     Evelin@e.ca
+Leonida Kyte	     LeonidaKyte@e.ca
+Lavon Hilyard	     LavonHilyard@e.ca
+Ute Audette	     UteAudette@e.ca
+Ben Kinsler	     BenKinsler@e.ca
+Rodger Manuelito     RodgerManue@e.ca
+Blanca Wunder	     BlancaWunder@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Haywood Gathers      HaywoodGathers@e.ca
+Elois Douthitt	     EloisDouthitt@e.ca
+Christiana Ballan    ChristianaBal@e.ca
+Caroll Wakeland      CarollWakeland@e.ca
+Jaqueline Bonet      JaquelineBonet@e.ca
+Beula Mcmichael      BeulaMcmichael@e.ca
+Mardell Remaley      MardellRemaley@e.ca
+Aleta Vanmeter	     AletaVanmeter@e.ca
+Kina Mcelfresh	     KinaMcelfresh@e.ca
+Dave Gendreau	     DaveGendreau@e.ca
+Billi Bradt	     BilliBradt@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Jenee Donelson	     JeneeDonelson@e.ca
+Raymonde Escamilla   RaymondeEscam@e.ca
+Merrill Mckechnie    MerrillMckech@e.ca
+Joelle Butters	     JoelleButters@e.ca
+Leonel Camarena      LeonelCamarena@e.ca
+Erlene Cahn	     ErleneCahn@e.ca
+Genny Musil	     GennyMusil@e.ca
+Graig Ridgeway	     GraigRidgeway@e.ca
+Ashanti Trice	     AshantiTrice@e.ca
+Librada Reddick      LibradaReddick@e.ca
+Idella Kai	     IdellaKai@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Felicia Rodden	     FeliciaRodden@e.ca
+Mohammed Ross	     MohammedRoss@e.ca
+Garnet Andres	     GarnetAndres@e.ca
+Codi Ketner	     CodiKetner@e.ca
+Jerlene Wyer	     JerleneWyer@e.ca
+Shanelle Pinkham     ShanellePink@e.ca
+Nathan Prum	     NathanPrum@e.ca
+Johnathan Jernigan   JohnathanJern@e.ca
+Daryl Manzano	     DarylManzano@e.ca
+Delilah Cortinas     DelilahCorti@e.ca
+Clora Demaria	     CloraDemaria@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Devin Ebarb	     DevinEbarb@e.ca
+Elizbeth Boye	     ElizbethBoye@e.ca
+Abram Drumheller     AbramDrumhe@e.ca
+Lakiesha Janecek     LakieshaJanec@e.ca
+Tyron Bushell	     TyronBushell@e.ca
+Tari Lefort	     TariLefort@e.ca
+Suzie Serrata	     SuzieSerrata@e.ca
+Haydee Grief	     HaydeeGrief@e.ca
+Elba Camire	     ElbaCamire@e.ca
+Conrad Wheeler	     ConradWheeler@e.ca
+Fernanda Schneller   FernandaSchne@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Violeta Younan	     VioletaYounan@e.ca
+Almeda Coto	     AlmedaCoto@e.ca
+Kena Ruhland	     KenaRuhland@e.ca
+Betsey Mcclaran      BetseyMcclaran@e.ca
+Samuel Dipaolo	     SamuelDipaolo@e.ca
+Selma Caddy	     SelmaCaddy@e.ca
+Dedra Dahm	     DedraDahm@e.ca
+Onie Kenton	     OnieKenton@e.ca
+Samara Friesen	     SamaraFriesen@e.ca
+Ngan Gaitan	     NganGaitan@e.ca
+Shira Dynes	     ShiraDynes@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Elanor Bruck	     ElanorBruck@e.ca
+Dotty Barsh	     DottyBarsh@e.ca
+Rudolph Jarrett      RudolphJarrett@e.ca
+Elbert Dolphin	     ElbertDolphin@e.ca
+Roxane Pankratz      RoxanePankratz@e.ca
+Charis Speaker	     CharisSpeaker@e.ca
+Kerri Sterba	     KerriSterba@e.ca
+Gena Dodrill	     GenaDodrill@e.ca
+Renae Escamilla      RenaeEscamilla@e.ca
+Alverta Lietz	     AlvertaLietz@e.ca
+Guy Raulston	     GuyRaulston@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Tashina Chesnutt     TashinaChesn@e.ca
+Christoper Batt      ChristoperBatt@e.ca
+Tequila Pribble      TequilaPribble@e.ca
+Glennis Pasternak    Glennis@e.ca
+Corina Baughman      CorinaBaughman@e.ca
+Donnetta Dummer      DonnettaDummer@e.ca
+Kamilah Swindoll     KamilahSwin@e.ca
+Martina Westbrook    MartinaWestbr@e.ca
+Nila Iglesias	     NilaIglesias@e.ca
+Maris Knutsen	     MarisKnutsen@e.ca
+Delila Brueggemann   DelilaBruegge@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Exie Neidert	     ExieNeidert@e.ca
+Courtney Thao	     CourtneyThao@e.ca
+Kathi Uyehara	     KathiUyehara@e.ca
+Elyse Oaks	     ElyseOaks@e.ca
+Marcelle Rank	     MarcelleRank@e.ca
+Karla Istre	     KarlaIstre@e.ca
+Donte Summers	     DonteSummers@e.ca
+Setsuko Beckmann     SetsukoBeck@e.ca
+Angie Dussault	     AngieDussault@e.ca
+Shantae Poppe	     ShantaePoppe@e.ca
+Jerlene Beam	     JerleneBeam@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Sanda Haverland      SandaHaverland@e.ca
+Sharda Cifuentes     ShardaCifuen@e.ca
+Dung Toland	     DungToland@e.ca
+Meta Garlock	     MetaGarlock@e.ca
+Johnna Choudhury     JohnnaChoud@e.ca
+Sachiko Weise	     SachikoWeise@e.ca
+Aracely Beaupre      AracelyBeaupre@e.ca
+Paulette Awong	     PauletteAwong@e.ca
+Lahoma Broaddus      LahomaBroaddus@e.ca
+Rayna Conn	     RaynaConn@e.ca
+Harlan Sauer	     HarlanSauer@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Essie Musser	     EssieMusser@e.ca
+Coleen Kantner	     ColeenKantner@e.ca
+Assunta Davis	     AssuntaDavis@e.ca
+Shaniqua Eriksen     Shaniqua@e.ca
+Romaine Pina	     RomainePina@e.ca
+Reagan Southworth    ReaganSouth@e.ca
+Romona Piland	     RomonaPiland@e.ca
+Lizeth Fenstermaker  Lizeth@e.ca
+Ryann Carreno	     RyannCarreno@e.ca
+Jackqueline Rink     JackquelineR@e.ca
+Adria Yale	     AdriaYale@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Brittanie Mento      BrittanieMento@e.ca
+Clyde Tripp	     ClydeTripp@e.ca
+Kathlyn Inniss	     KathlynInniss@e.ca
+Francesca Lininger   FrancescaLini@e.ca
+Bernarda Moring      BernardaMoring@e.ca
+Lore Pereira	     LorePereira@e.ca
+Hildegard Beil	     HildegardBeil@e.ca
+Noella Strasburg     NoellaStras@e.ca
+Foster Durkin	     FosterDurkin@e.ca
+Shaun Pink	     ShaunPink@e.ca
+Aileen Daniell	     AileenDaniell@e.ca
+
+NAME		     EMAIL
+-------------------- --------------------
+Alvaro Vaquera	     AlvaroVaquera@e.ca
+Charmain Keen	     CharmainKeen@e.ca
+Olive Clendenin      OliveClendenin@e.ca
+Jacqui Hatton	     JacquiHatton@e.ca
+Harold Ruple	     HaroldRuple@e.ca
+Ryan Sand	     RyanSand@e.ca
+
+149 rows selected.
+
+SQL> @3
+Question 3 - rhanders
+
+FLIGHT DEP_DATE
+------ ---------
+AC1012 18-OCT-15
+AC102  19-OCT-15
+AC1028 26-OCT-15
+AC1037 23-OCT-15
+AC1048 02-NOV-15
+AC1087 15-OCT-15
+AC1091 29-OCT-15
+AC1093 23-OCT-15
+AC1094 01-NOV-15
+AC1113 16-OCT-15
+AC1308 26-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+AC1320 11-OCT-15
+AC1322 09-OCT-15
+AC1322 14-OCT-15
+AC1340 15-OCT-15
+AC1344 05-NOV-15
+AC1362 13-OCT-15
+AC1401 28-OCT-15
+AC1437 20-OCT-15
+AC1460 28-OCT-15
+AC1498 26-OCT-15
+AC1515 29-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+AC1537 09-OCT-15
+AC1556 30-OCT-15
+AC1594 14-OCT-15
+AC1599 14-OCT-15
+AC1599 16-OCT-15
+AC1626 29-OCT-15
+AC1701 02-NOV-15
+AC1754 23-OCT-15
+AC1760 12-OCT-15
+AC1761 23-OCT-15
+AC1793 05-NOV-15
+
+FLIGHT DEP_DATE
+------ ---------
+AC1809 20-OCT-15
+AC1844 01-NOV-15
+AC1863 18-OCT-15
+AC1900 16-OCT-15
+AC1931 12-OCT-15
+AC1934 21-OCT-15
+AC1948 17-OCT-15
+AC1961 24-OCT-15
+AC1968 26-OCT-15
+AC1977 15-OCT-15
+AC1977 04-NOV-15
+
+FLIGHT DEP_DATE
+------ ---------
+AC1985 23-OCT-15
+AC2033 11-OCT-15
+AC2080 01-NOV-15
+AC2108 16-OCT-15
+AC2145 17-OCT-15
+AC2166 04-NOV-15
+AC2167 14-OCT-15
+AC2185 17-OCT-15
+AC2229 13-OCT-15
+AC2235 16-OCT-15
+AC2267 12-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+AC2301 19-OCT-15
+AC2370 05-NOV-15
+AC2372 17-OCT-15
+AC2393 26-OCT-15
+AC2410 14-OCT-15
+AC2417 12-OCT-15
+AC2418 20-OCT-15
+AC2437 21-OCT-15
+AC246  14-OCT-15
+AC246  20-OCT-15
+AC2499 23-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+AC316  01-NOV-15
+AC373  13-OCT-15
+AC374  12-OCT-15
+AC391  12-OCT-15
+AC411  20-OCT-15
+AC420  13-OCT-15
+AC478  05-NOV-15
+AC502  09-OCT-15
+AC648  11-OCT-15
+AC690  16-OCT-15
+AC790  12-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+AC795  05-NOV-15
+AC800  20-OCT-15
+AC803  13-OCT-15
+AC831  23-OCT-15
+AC857  17-OCT-15
+WJ1005 15-OCT-15
+WJ1014 20-OCT-15
+WJ1025 28-OCT-15
+WJ1026 05-NOV-15
+WJ1029 19-OCT-15
+WJ1030 04-NOV-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ1049 13-OCT-15
+WJ1055 12-OCT-15
+WJ1063 12-OCT-15
+WJ1066 24-OCT-15
+WJ1069 24-OCT-15
+WJ1069 03-NOV-15
+WJ1078 24-OCT-15
+WJ1079 06-NOV-15
+WJ1085 13-OCT-15
+WJ1102 20-OCT-15
+WJ1102 01-NOV-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ113  21-OCT-15
+WJ113  04-NOV-15
+WJ1142 12-OCT-15
+WJ1159 06-NOV-15
+WJ1166 27-OCT-15
+WJ1167 28-OCT-15
+WJ1174 26-OCT-15
+WJ1285 11-OCT-15
+WJ1287 24-OCT-15
+WJ1323 26-OCT-15
+WJ1336 03-NOV-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ1357 13-OCT-15
+WJ1388 04-NOV-15
+WJ1397 12-OCT-15
+WJ1471 04-NOV-15
+WJ1488 07-NOV-15
+WJ1511 20-OCT-15
+WJ1524 07-NOV-15
+WJ1526 13-OCT-15
+WJ1529 06-NOV-15
+WJ153  19-OCT-15
+WJ1612 14-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ1612 26-OCT-15
+WJ1624 17-OCT-15
+WJ1645 05-NOV-15
+WJ1704 21-OCT-15
+WJ1722 02-NOV-15
+WJ1769 01-NOV-15
+WJ178  18-OCT-15
+WJ1792 16-OCT-15
+WJ1799 03-NOV-15
+WJ1814 29-OCT-15
+WJ1825 24-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ1831 01-NOV-15
+WJ1878 17-OCT-15
+WJ1915 18-OCT-15
+WJ1966 20-OCT-15
+WJ1981 07-NOV-15
+WJ206  09-OCT-15
+WJ2085 21-OCT-15
+WJ2151 05-NOV-15
+WJ2163 26-OCT-15
+WJ2168 11-OCT-15
+WJ2172 26-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ2187 20-OCT-15
+WJ2241 14-OCT-15
+WJ2292 13-OCT-15
+WJ2320 14-OCT-15
+WJ2320 03-NOV-15
+WJ2389 15-OCT-15
+WJ2427 12-OCT-15
+WJ2437 11-OCT-15
+WJ2470 23-OCT-15
+WJ258  17-OCT-15
+WJ267  05-NOV-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ277  22-OCT-15
+WJ282  01-NOV-15
+WJ292  14-OCT-15
+WJ320  14-OCT-15
+WJ340  19-OCT-15
+WJ385  23-OCT-15
+WJ393  22-OCT-15
+WJ394  04-NOV-15
+WJ446  11-OCT-15
+WJ467  14-OCT-15
+WJ491  30-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ500  17-OCT-15
+WJ533  20-OCT-15
+WJ533  23-OCT-15
+WJ542  12-OCT-15
+WJ542  26-OCT-15
+WJ546  18-OCT-15
+WJ615  24-OCT-15
+WJ650  16-OCT-15
+WJ691  15-OCT-15
+WJ695  12-OCT-15
+WJ700  13-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ703  11-OCT-15
+WJ703  01-NOV-15
+WJ717  09-OCT-15
+WJ721  05-NOV-15
+WJ739  17-OCT-15
+WJ748  13-OCT-15
+WJ837  22-OCT-15
+WJ877  23-OCT-15
+WJ897  17-OCT-15
+WJ902  22-OCT-15
+WJ903  20-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ903  26-OCT-15
+WJ914  13-OCT-15
+WJ914  04-NOV-15
+WJ923  23-OCT-15
+WJ923  04-NOV-15
+WJ949  03-NOV-15
+WJ951  20-OCT-15
+WJ955  12-OCT-15
+WJ958  16-OCT-15
+WJ963  09-OCT-15
+WJ971  15-OCT-15
+
+FLIGHT DEP_DATE
+------ ---------
+WJ976  16-OCT-15
+WJ995  14-OCT-15
+
+200 rows selected.
+
+SQL> @4
+Question 4 - rhanders
+
+ACO NUM_ARRIVALS
+--- ------------
+LAX	    1029
+XKS	      78
+MRI	      75
+LIV	      70
+MCF	      70
+VLD	      66
+NQA	      64
+XLB	      63
+MEM	      61
+SGY	      60
+TWF	      60
+
+ACO NUM_ARRIVALS
+--- ------------
+TYR	      60
+MHV	      59
+MVY	      57
+PWT	      56
+YCL	      55
+OSH	      54
+MNZ	      54
+RIC	      53
+UDD	      52
+SJT	      52
+VSF	      52
+
+ACO NUM_ARRIVALS
+--- ------------
+STE	      52
+PIE	      50
+WWT	      50
+LMM	      50
+MTM	      49
+RSW	      49
+RNO	      48
+RIR	      48
+RAC	      48
+NML	      47
+ORD	      47
+
+ACO NUM_ARRIVALS
+--- ------------
+NUW	      45
+SSI	      45
+XAD	      45
+PIH	      45
+N69	      45
+SPI	      44
+SLW	      44
+X01	      44
+MLS	      44
+PTB	      43
+UST	      43
+
+ACO NUM_ARRIVALS
+--- ------------
+SHH	      43
+NBG	      42
+WIH	      40
+LWS	      40
+SLN	      39
+SAV	      39
+LRF	      39
+OSU	      39
+UT3	      38
+MCN	      38
+MAE	      38
+
+ACO NUM_ARRIVALS
+--- ------------
+YYZ	      37
+MCC	      37
+SQL	      36
+S30	      35
+TOL	      35
+YBI	      35
+LGB	      35
+MSN	      35
+SGJ	      35
+LCK	      35
+MXY	      35
+
+ACO NUM_ARRIVALS
+--- ------------
+TCL	      35
+PDX	      35
+UUK	      35
+XTL	      34
+YAW	      34
+NLD	      34
+SXP	      34
+ORH	      34
+PEC	      34
+TUP	      32
+X49	      32
+
+ACO NUM_ARRIVALS
+--- ------------
+OLH	      32
+MPV	      32
+RND	      30
+YEG	      30
+SGR	      30
+OAK	      30
+NZY	      30
+YEE	      28
+TSS	      28
+MHR	      28
+SKK	      26
+
+ACO NUM_ARRIVALS
+--- ------------
+CRP	      26
+PVU	      25
+ROA	      25
+EGE	      23
+MCK	      20
+YMW	      20
+EGX	      20
+MFE	      20
+YRL	      20
+PFN	      19
+HIO	      19
+
+ACO NUM_ARRIVALS
+--- ------------
+YOJ	      19
+LPC	      19
+PHO	      18
+NIB	      18
+PNM	      17
+AVO	      17
+GLV	      17
+FTW	      16
+YIV	      16
+ALB	      16
+VAK	      16
+
+ACO NUM_ARRIVALS
+--- ------------
+ZKG	      16
+GKN	      16
+DAY	      15
+GSB	      15
+INK	      15
+ELP	      15
+FUL	      15
+MXF	      15
+HKB	      15
+YHY	      15
+WRL	      15
+
+ACO NUM_ARRIVALS
+--- ------------
+YGB	      15
+TKF	      15
+GUP	      14
+CDW	      14
+KAL	      14
+ADK	      14
+IMM	      14
+YNE	      13
+HYL	      13
+C16	      13
+APG	      13
+
+ACO NUM_ARRIVALS
+--- ------------
+L52	      13
+YRG	      12
+EPM	      12
+JHW	      12
+DBN	      12
+FYV	      12
+CWT	      12
+INT	      12
+YUM	      12
+YWK	      11
+JEF	      11
+
+ACO NUM_ARRIVALS
+--- ------------
+KVC	      11
+LUF	      11
+BHM	      11
+YUY	      11
+ZJN	      11
+BIG	      11
+GTF	      10
+CXF	      10
+YRJ	      10
+BIL	      10
+DHB	      10
+
+ACO NUM_ARRIVALS
+--- ------------
+YLD	      10
+CEN	      10
+GRR	      10
+BUF	      10
+GVQ	      10
+GGW	      10
+LAK	      10
+BRW	      10
+ANC	      10
+BDR	      10
+BKW	      10
+
+ACO NUM_ARRIVALS
+--- ------------
+YRT	      10
+KYK	      10
+YQZ	      10
+CDN	      10
+FTK	      10
+JAX	      10
+ZRA	      10
+YGP	      10
+YZW	       9
+YZF	       9
+ARC	       9
+
+ACO NUM_ARRIVALS
+--- ------------
+YZP	       9
+CLE	       9
+YKG	       9
+YEU	       8
+BFI	       8
+IRK	       8
+IGM	       8
+YUT	       8
+CEM	       8
+YYY	       7
+IWS	       7
+
+ACO NUM_ARRIVALS
+--- ------------
+KWN	       7
+ALO	       7
+END	       7
+DFW	       7
+YMM	       7
+YFO	       7
+CTB	       6
+YRQ	       6
+YSM	       6
+ZPH	       6
+ILG	       6
+
+ACO NUM_ARRIVALS
+--- ------------
+GEU	       5
+CDR	       5
+C91	       5
+EDW	       5
+A39	       5
+CON	       5
+YRV	       5
+BMT	       5
+YGH	       5
+ERV	       5
+YWL	       5
+
+ACO NUM_ARRIVALS
+--- ------------
+ABQ	       5
+DNN	       5
+HYS	       5
+YVV	       5
+YPY	       5
+YTE	       5
+ABL	       5
+EKO	       5
+YKL	       5
+HUT	       5
+YZU	       5
+
+ACO NUM_ARRIVALS
+--- ------------
+YFS	       5
+BET	       5
+KCC	       5
+BVY	       5
+CRW	       5
+ZRP	       5
+YTG	       5
+CMH	       4
+FLG	       4
+YMG	       4
+HIB	       4
+
+ACO NUM_ARRIVALS
+--- ------------
+APA	       3
+YQY	       3
+ECP	       3
+BKC	       3
+ZSY	       2
+YHU	       2
+BQK	       1
+FNL	       1
+EWN	       1
+CZG	       1
+
+241 rows selected.
+
+SQL> @5
+Question 5 - rhanders
+
+      RANK ACO NUM_ARRIVALS_AND_DEPARTURES
+---------- --- ---------------------------
+	 1 LAX			      1054
+	 2 YEG			       664
+	 3 MCF			       149
+
+SQL> @6
+Question 6 - rhanders
+
+FLIGHT DEP_TIME FT	PRICE
+------ -------- -- ----------
+AC725  22:45:00 N	   26
+
+SQL> @7
+Question 7 - rhanders
+
+View dropped.
+
+
+View created.
+
+SQL> @8
+Question 8 - rhanders
+
+FLIGHT FA      SEATS	  PRICE
+------ -- ---------- ----------
+AC2378 N	  27	     35
+AC2378 T	   8	     51
+AC1871 T	  41	     65
+AC1325 C	  38	     88
+AC1472 C	   7	    121
+AC2378 C	  33	    145
+AC1675 F	  40	    159
+AC1511 E	  17	    174
+AC1472 E	  42	    174
+AC2378 E	   2	    180
+AC1675 B	   1	    180
+
+FLIGHT FA      SEATS	  PRICE
+------ -- ---------- ----------
+AC2378 F	  35	    193
+AC1871 E	  31	    197
+AC1871 X	   8	    229
+AC1511 F	  16	    229
+AC1871 F	  43	    236
+AC1675 X	  14	    240
+AC1325 B	  20	    242
+AC1511 X	  10	    482
+
+19 rows selected.
+
+SQL> @9
+Question 9 - rhanders
+
+View dropped.
+
+
+View created.
+
+SQL> ! @10
+Question 10 - rhanders
+
+FLIGHT FLIGHT  LAYOVER_H      PRICE
+------ ------ ---------- ----------
+AC1325 WJ2515 4.51666667	268
+AC1675 WJ2515 3.46666667	339
+AC1675 WJ2515 3.46666667	360
+AC1675 WJ2515 3.46666667	420
+AC1325 WJ2515 4.51666667	422
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+rhanders@ohaton:~/Documents/cmput291/a2>exit
+exit
+
+Script done on Thu 08 Oct 2015 11:44:18 AM MDT
